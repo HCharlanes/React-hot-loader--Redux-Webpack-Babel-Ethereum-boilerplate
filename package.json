@@ -1,0 +1,38 @@
+{
+  "name": "react-redux-webpack-babel-solc-web3-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for React/Redux + Ethereum dApps.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "compile": "webpack -d",
+    "build": "webpack -p",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ethereum",
+    "boilerplate",
+    "react",
+    "redux",
+    "web3",
+    "solc"
+  ],
+  "author": "hcharlanes",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "json-loader": "^0.5.4",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "redux": "^3.5.2",
+    "web3": "^0.16.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.3.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
